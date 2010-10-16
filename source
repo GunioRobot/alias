@@ -1,0 +1,9 @@
+ALIAS_DIR=~/.aliases
+
+function src() {
+        source $ALIAS_DIR/$1.alias
+}
+
+
+src git
+src ssh
