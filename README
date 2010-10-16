@@ -1,0 +1,8 @@
+= Usage
+
+  cd
+  mkdir .aliases
+  git clone https://techfolio@github.com/techfolio/alias.git .aliases
+
+Add to your .bashrc or .zshrc:
+  source .aliases/source
