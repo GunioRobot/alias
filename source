@@ -6,3 +6,4 @@ function src() {
 
 
 src git
+src rails
