@@ -1,6 +1,6 @@
 alias gi="git init"
 alias ga="git add"
-alias gc="git commit"
+alias gc="git commit -v"
 alias gdc="git svn dcommit"
 alias gp="git push"
 alias gl="git pull"
