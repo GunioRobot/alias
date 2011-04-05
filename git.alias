@@ -1,12 +1,17 @@
 alias gi="git init"
 alias ga="git add"
-alias gc="git commit -v"
-alias gdc="git svn dcommit"
-alias gp="git push"
-alias gl="git pull"
-alias glr="git pull --rebase"
-alias grb="git svn rebase"
-alias gst="git status"
 alias gdf="git diff"
 alias gco="git checkout"
-alias gcb="git checkout -b"
+alias gb='git branch -v'
+alias gba='gb -a'
+alias gc='git commit -v'
+alias gca='gc -a'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gl='git pull -v'
+alias glr='git pull -v --rebase'
+alias gg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset| %Cgreen%cr %C(white)%cn%Creset' --abbrev-commit --date=relative" 
+alias gp='git push -v'
+alias gst='git status'
+alias gsr='git svn rebase'
+alias gcd='git svn dcommit'
