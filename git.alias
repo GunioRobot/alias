@@ -10,7 +10,7 @@ alias gd='git diff'
 alias gdc='git diff --cached'
 alias gl='git pull -v'
 alias glr='git pull -v --rebase'
-alias gg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset| %Cgreen%cr %C(white)%cn%Creset' --abbrev-commit --date=relative" 
+alias gg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset| %Cgreen%cr %C(white)%cn%Creset' --abbrev-commit --date=relative"
 alias gp='git push -v'
 alias gst='git status'
 alias gsr='git svn rebase'
